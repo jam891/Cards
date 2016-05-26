@@ -16,6 +16,7 @@ class DeckDetailTableViewController: UIViewController {
     static let cellIdentifier = "Card"
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var toolbar: UIToolbar!
     
     var fetchedResultsController: NSFetchedResultsController!
     var resultsController: UITableViewController!
@@ -48,7 +49,7 @@ class DeckDetailTableViewController: UIViewController {
         resultsController.tableView.emptyDataSetSource = self
         resultsController.tableView.emptyDataSetDelegate = self
     }
- 
+
     
     // MARK: - Initialize fetched results controller
     
@@ -119,7 +120,6 @@ class DeckDetailTableViewController: UIViewController {
                     cardAddViewController.didFinish = { frontText, backText, transcription, partOfSpeech, examples in
                         self.deck.createCard(frontText, backText: backText, transcription: transcription, partOfSpeech: partOfSpeech, examples: examples)
                         self.dismissViewControllerAnimated(true, completion: nil)
-                        cardsModel.saveContext()
                     }
                 }
             case "EditCard":
@@ -175,6 +175,7 @@ class DeckDetailTableViewController: UIViewController {
 extension DeckDetailTableViewController: UITableViewDataSource {
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        toolbar.hidden = cards.count > 0 ? false : true
         return tableView === self.tableView ? cards.count : filteredCards.count
     }
     
@@ -217,29 +218,15 @@ extension DeckDetailTableViewController: UITableViewDelegate {
             self.selectedCard = self.cards[indexPath.row]
             self.performSegueWithIdentifier("EditCard", sender: self)
         })
+        editAction.backgroundColor = .lightGrayColor()
         
         let deleteAction = UITableViewRowAction(style: .Destructive, title: NSLocalizedString("Delete", comment: ""), handler: { action, indexPath in
             self.selectedCard = self.cards[indexPath.row]
             self.deck.deleteCard(self.selectedCard.objectID)
         })
-        editAction.backgroundColor = UIColor.lightGrayColor()
-        deleteAction.backgroundColor = .redColor()
+        
         return [deleteAction, editAction]
     }
-    
-//    func tableView(tableView: UITableView, shouldIndentWhileEditingRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-//        return false
-//    }
-    
-//    func tableView(tableView: UITableView, moveRowAtIndexPath sourceIndexPath: NSIndexPath, toIndexPath destinationIndexPath: NSIndexPath) {
-//        let movedCard = cards[sourceIndexPath.row]
-//        cards.removeAtIndex(sourceIndexPath.row)
-//        cards.insert(movedCard, atIndex: destinationIndexPath.row)
-//    }
-//    
-//    func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-//        return true
-//    }
 
 }
 

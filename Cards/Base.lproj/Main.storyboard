@@ -169,7 +169,7 @@
                                 </items>
                             </toolbar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Vsc-zy-mVd" secondAttribute="trailing" id="3XO-1J-BsU"/>
                             <constraint firstItem="lVL-zi-6vU" firstAttribute="top" secondItem="Vsc-zy-mVd" secondAttribute="bottom" id="6nV-X8-Yj1"/>
@@ -197,6 +197,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="bZO-Ay-N0A" id="9ER-UM-dG1"/>
+                        <outlet property="toolbar" destination="Vsc-zy-mVd" id="e0t-De-GFO"/>
                         <segue destination="ufs-vm-ofS" kind="show" identifier="EditCard" id="dqc-yr-QrB"/>
                         <segue destination="f88-Nf-T52" kind="show" identifier="CardDetail" id="6hJ-oY-k9Z"/>
                     </connections>

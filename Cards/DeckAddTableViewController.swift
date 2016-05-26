@@ -29,8 +29,6 @@ class DeckAddTableViewController: UITableViewController {
     @IBAction func done(sender: UIBarButtonItem) {
         let name = nameTextField.text!.trim()
         
-        //let isExist = validate(name)
-        
         if name.characters.count == 0 {
             errorLabel.text = NSLocalizedString("Deck names must contain at least 1 character.", comment: "")
             animate()
