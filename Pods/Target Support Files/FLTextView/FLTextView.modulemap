@@ -1,0 +1,6 @@
+framework module FLTextView {
+  umbrella header "FLTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

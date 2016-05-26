@@ -1,0 +1,1262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063179ACE0537B66646795ABD50D8641 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		0729DED1737DCDB309394E0B59393F37 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B524E58529A451DB19CD98083A146ED5 /* Dimension.swift */; };
+		1AED6D56643416F5EAE5AF5E2067729F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		2057FF930EF0F28E7AD548BF23BE78EE /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA92023CC59A201EBD95916A28F0A7A9 /* Edge.swift */; };
+		22DC2D74E9117167CD17FD04C327EB9D /* DZNEmptyDataSet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CAA426983BC4FC629A763C74F41ADF /* DZNEmptyDataSet-dummy.m */; };
+		28515F6FFAA0E2F9591A862D532F33AC /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CA523BEB6EF085D5A8922CAECC3877 /* Compound.swift */; };
+		2E8BFBDA1110FD4E0AD7C53CDB1C897B /* FLTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76ACB070A2C4F9036F8A8F94F6CFD00A /* FLTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		369CA2AACEED2517C99D77D7700DFCEA /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8DCFE1648B7F5350515B875B8ECBA9 /* Distribute.swift */; };
+		39FAC590BADB45B1BF0F606757433586 /* HWSwiftyViewPager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5FEFAA3C635AF0EAA06E8C25500F62 /* HWSwiftyViewPager-dummy.m */; };
+		3BC49A2B50306C45D4EBCAA50600EBE7 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F3505290FDE32A991E0E74398E355EBD /* UIScrollView+EmptyDataSet.m */; };
+		452C09D0CAC1F8286ABA1CE076033B23 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35169C11EF9B772EDA8FCE951A84B364 /* Context.swift */; };
+		48ADE3FB3F30FCA5893083351449DA98 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51ACCA734B53F16E43D3D8C46256E88A /* ViewUtils.swift */; };
+		4C556268A7E80C64061C12724D82A1B0 /* ZLSwipeableViewSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8FAA675DD599389DCE588D004FE5789 /* ZLSwipeableViewSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5044CA9F7CCBB02F3C294106022FCF9F /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F1196D72358BAEFCD72C125DEEE008 /* Edges.swift */; };
+		584B68A7069844742AEF67ED9311FF50 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2D81AAE89B119E1DE5776ECF55A4D /* Align.swift */; };
+		58770C0E39A32386068079BE54CF31EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		7CD04D81B5ED213A105DFC517187EB87 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F78C89A057F6CC563CB69C66175247 /* Expression.swift */; };
+		7F981DEC4D160D6FA5616670316B238F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		8371851987769454FE6243E0330C99B7 /* HWSwiftyViewPager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 349FA2041B8FB4C63BB5C34F8340C661 /* HWSwiftyViewPager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8378B61D28075525380201114F6E4582 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B242767BA3478DC239DAB9CF4162281 /* LayoutProxy.swift */; };
+		877411942E38D99CC314CB29963ADE5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		997D0F6B64CD6E02153972074DF6FD9C /* Pods-Cards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C4A9770345B835AAC7EC116C771888 /* Pods-Cards-dummy.m */; };
+		A33E78335A9459EC83327D52001569C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		B116B651388E34E3CE3E9097BC83D47F /* DZNEmptyDataSet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F80C4D4561334DF8CA80AEED3CA5B1 /* DZNEmptyDataSet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B23E3B878363F72D1E874E46EB62FA7F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFE649FE8039846BB61C11128E9DF5 /* Size.swift */; };
+		B5180B2E40DD0411764FE4E086A37A61 /* FLTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23AA3A56E4687368BC968E305448E68 /* FLTextView.swift */; };
+		B90891688A088BC37455234028C2E993 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A6C8803C4C907851BF18979A8C5CFE /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC1B8F82941961226B36A21F72F37B0F /* HWSwiftyViewPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C997E2E46483577407284316B57334 /* HWSwiftyViewPager.swift */; };
+		BE2FC20F5EDBAE658F688978AB12C279 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6367F0B6C1E7E84134187CF0477FA3 /* Extensions.swift */; };
+		BE9F89AF424C8FB7D1FB34D4D0DDECFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		C0857F13A9E13C0A51A4629EB05C9D01 /* ZLSwipeableViewSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A137A7D51BD9E22FDDA9783013F5EB1F /* ZLSwipeableViewSwift-dummy.m */; };
+		C3649839064E53A4BF767D2EF29651EF /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E31D364EA28748C02E7781BC37C9B10 /* Priority.swift */; };
+		C4B58B3C26DFA2A6F79843B0160AAB75 /* FLTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBADB220C460BAEBDFA68483F6C21E48 /* FLTextView-dummy.m */; };
+		C81C5ADA4D6D675B99C5A69E19490900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		CBFCBC48C4DB2362808AA2BF7F497ECA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		D2C9087C6581055C25D5559F934AF65B /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4288C15ED26AEE6799DC379CABF91BC8 /* Constrain.swift */; };
+		D3C01862D88692FA2E85A2D84345982B /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1AAC1DFC0F3921A434DEDD4FF3F17F /* Point.swift */; };
+		D56BD3B0ACF32790F3EF43EA3DB08016 /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABF5065471F9A7A40C2DF99717B3AE0 /* Cartography-dummy.m */; };
+		D770D943708CFCCD87F0AAC654FB82C1 /* Pods-Cards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 732B3BEE7D0DB9A783CAC4BED6D13EA7 /* Pods-Cards-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D97679A26758D9E2F43DDFFA0269B583 /* ZLSwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15135C5FAD5669AA5224CEDFB4D1961C /* ZLSwipeableView.swift */; };
+		E1451AA498D7B41C4E049F5D9027B4A7 /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08099BD2119ADD6CB986AD65AD8CE327 /* ConstraintGroup.swift */; };
+		E14B01B2BDDA7C86AC2EBC45FCFEF52E /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = B52E57B35D702A90A99595B179B9F2D5 /* UIScrollView+EmptyDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB9E85B0CE6A53DCBDE040A716B5DBF8 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4173BC1425E347C4EE7349FD9FB9363 /* Property.swift */; };
+		EE94E3F06DA2F096BA43F0679567DC4B /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A414568D4A56AF7653EB0E8B9161AA5 /* Coefficients.swift */; };
+		F469BC9885602957FCB73DD39B5B92B0 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85824AA27F2160722812488091951FD7 /* Constraint.swift */; };
+		F95ADCA0B85C6C0640372D3EFBBF1AD6 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1743A304A4DB77355F2DF6FFFFEE6DF /* View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DF008052298D346B67E37BA6325BC8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07BC22275DE0810BF7ABE379D4EAACE3;
+			remoteInfo = FLTextView;
+		};
+		4BA811C0E1987FDE561AB64D8E647092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2430D54F1C11F04C76372A346FC9951E;
+			remoteInfo = ZLSwipeableViewSwift;
+		};
+		52F680E3B8C56E35195842578EE6FECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16FB872D0D2D4BA0F378AB34D47CF95F;
+			remoteInfo = DZNEmptyDataSet;
+		};
+		ACDF2731764B6093CBE16959E65E1727 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFFF6E24FA4F8646CE24D5B311BB6BA2;
+			remoteInfo = HWSwiftyViewPager;
+		};
+		C28C940CB354F9E5016002E41D5DA0F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3A04698AAE4D6124C20602D622956E5;
+			remoteInfo = Cartography;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CA523BEB6EF085D5A8922CAECC3877 /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
+		01B9274364E3F25040FE638FCB92A34E /* Pods-Cards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cards.release.xcconfig"; sourceTree = "<group>"; };
+		0334537F1B473FF682978AE957556BA6 /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cartography.modulemap; sourceTree = "<group>"; };
+		04EFE649FE8039846BB61C11128E9DF5 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
+		05E4BD358566F247FC19FC5C9C6B37C8 /* HWSwiftyViewPager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HWSwiftyViewPager.modulemap; sourceTree = "<group>"; };
+		08099BD2119ADD6CB986AD65AD8CE327 /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
+		0A30988716C04B63704B67A920E62588 /* Pods-Cards-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cards-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A74F10FE40D28FE6E2568E06625B152 /* ZLSwipeableViewSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLSwipeableViewSwift-prefix.pch"; sourceTree = "<group>"; };
+		0B242767BA3478DC239DAB9CF4162281 /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
+		0E09ABD6FF9F9DC143F074412FDFCC50 /* DZNEmptyDataSet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DZNEmptyDataSet.modulemap; sourceTree = "<group>"; };
+		132140681CADDBC37151F4B4FA710757 /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
+		15135C5FAD5669AA5224CEDFB4D1961C /* ZLSwipeableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZLSwipeableView.swift; path = ZLSwipeableViewSwift/ZLSwipeableView.swift; sourceTree = "<group>"; };
+		15C4A9770345B835AAC7EC116C771888 /* Pods-Cards-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cards-dummy.m"; sourceTree = "<group>"; };
+		1A5FEFAA3C635AF0EAA06E8C25500F62 /* HWSwiftyViewPager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HWSwiftyViewPager-dummy.m"; sourceTree = "<group>"; };
+		1D4E125CE2C816230A6549D17479207A /* ZLSwipeableViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLSwipeableViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		207878DB03DBD5E7A715788ADD59009C /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
+		349FA2041B8FB4C63BB5C34F8340C661 /* HWSwiftyViewPager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HWSwiftyViewPager-umbrella.h"; sourceTree = "<group>"; };
+		35169C11EF9B772EDA8FCE951A84B364 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
+		3A414568D4A56AF7653EB0E8B9161AA5 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		40514CC95A52D67EB85F856A8EF342DF /* FLTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLTextView-prefix.pch"; sourceTree = "<group>"; };
+		4288C15ED26AEE6799DC379CABF91BC8 /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
+		45A6C8803C4C907851BF18979A8C5CFE /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
+		4B528629018FE7B37ED5A2AED2F38BA0 /* ZLSwipeableViewSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZLSwipeableViewSwift.modulemap; sourceTree = "<group>"; };
+		51ACCA734B53F16E43D3D8C46256E88A /* ViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewUtils.swift; path = Cartography/ViewUtils.swift; sourceTree = "<group>"; };
+		5D137FE071672A61C89E8E907D9E4199 /* FLTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLTextView.xcconfig; sourceTree = "<group>"; };
+		68F80C4D4561334DF8CA80AEED3CA5B1 /* DZNEmptyDataSet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-umbrella.h"; sourceTree = "<group>"; };
+		6C8DCFE1648B7F5350515B875B8ECBA9 /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		6DA2D81AAE89B119E1DE5776ECF55A4D /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
+		6EB216B7B15EA4FF9428DB982C83B95C /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZNEmptyDataSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		730DB4AD6050976BE06A5601C1AB29B6 /* HWSwiftyViewPager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HWSwiftyViewPager-prefix.pch"; sourceTree = "<group>"; };
+		732B3BEE7D0DB9A783CAC4BED6D13EA7 /* Pods-Cards-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cards-umbrella.h"; sourceTree = "<group>"; };
+		76ACB070A2C4F9036F8A8F94F6CFD00A /* FLTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLTextView-umbrella.h"; sourceTree = "<group>"; };
+		7ABF5065471F9A7A40C2DF99717B3AE0 /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
+		7B41E5C44CD03870BFBEE41936D62824 /* Pods-Cards-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cards-resources.sh"; sourceTree = "<group>"; };
+		85824AA27F2160722812488091951FD7 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
+		8A204E51107ECD5220B72EB3CBE76ADB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E31D364EA28748C02E7781BC37C9B10 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9746620E99A4BE3F420FAB0A0C1FF694 /* ZLSwipeableViewSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLSwipeableViewSwift.xcconfig; sourceTree = "<group>"; };
+		A137A7D51BD9E22FDDA9783013F5EB1F /* ZLSwipeableViewSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLSwipeableViewSwift-dummy.m"; sourceTree = "<group>"; };
+		A1743A304A4DB77355F2DF6FFFFEE6DF /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
+		A1CAA426983BC4FC629A763C74F41ADF /* DZNEmptyDataSet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZNEmptyDataSet-dummy.m"; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A6F1196D72358BAEFCD72C125DEEE008 /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		ACE9488DE8972C58DE83A7AC985BCDDB /* FLTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B356880CC5F8DDD71C093BE66D80888A /* DZNEmptyDataSet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZNEmptyDataSet.xcconfig; sourceTree = "<group>"; };
+		B42329F01BBD1003DE8D7E8061F80D02 /* Pods-Cards-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cards-acknowledgements.plist"; sourceTree = "<group>"; };
+		B524E58529A451DB19CD98083A146ED5 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		B52E57B35D702A90A99595B179B9F2D5 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Source/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		B9C997E2E46483577407284316B57334 /* HWSwiftyViewPager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HWSwiftyViewPager.swift; path = HWSwiftyViewPager/HWSwiftyViewPager.swift; sourceTree = "<group>"; };
+		BBADB220C460BAEBDFA68483F6C21E48 /* FLTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLTextView-dummy.m"; sourceTree = "<group>"; };
+		BE1AAC1DFC0F3921A434DEDD4FF3F17F /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
+		C213EE87426DC08068C401AE652D97FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29B5975E02E8956160745B6188A3043 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A59B00F4E5A63483CFC98C3CA10727 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D4DE6713ADE437BA713B8C140116A7 /* Pods-Cards-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cards-frameworks.sh"; sourceTree = "<group>"; };
+		C8FAA675DD599389DCE588D004FE5789 /* ZLSwipeableViewSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLSwipeableViewSwift-umbrella.h"; sourceTree = "<group>"; };
+		CC0600E1E022A506890F064EF9BF5E40 /* DZNEmptyDataSet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-prefix.pch"; sourceTree = "<group>"; };
+		CD6EA6E0F1BD55CF04C59EDD1E9A84A4 /* Pods-Cards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cards.debug.xcconfig"; sourceTree = "<group>"; };
+		D228773BD7818371E298A9B33CF20B20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D539C3D5FB742EEEEF88BA8C6735B5EF /* HWSwiftyViewPager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HWSwiftyViewPager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79ABAC1FC7139A4F0D6BFC46B5E1338 /* FLTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FLTextView.modulemap; sourceTree = "<group>"; };
+		DA92023CC59A201EBD95916A28F0A7A9 /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		DCDAFD7E353438D97A927E644CFB2602 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E08A0821B51DFCEA31D6C71B6E807DB3 /* Pods_Cards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23AA3A56E4687368BC968E305448E68 /* FLTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FLTextView.swift; path = FLTextView/FLTextView.swift; sourceTree = "<group>"; };
+		E2CF08C07E6973CDA9AAE7C4BE127832 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4173BC1425E347C4EE7349FD9FB9363 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E9ACD208835AEAD4773DC9E1734570CC /* Pods-Cards.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Cards.modulemap"; sourceTree = "<group>"; };
+		EB6367F0B6C1E7E84134187CF0477FA3 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
+		EEBE62C1F2DC3C71D6573C2CB311E430 /* HWSwiftyViewPager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HWSwiftyViewPager.xcconfig; sourceTree = "<group>"; };
+		F3505290FDE32A991E0E74398E355EBD /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Source/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		F7F78C89A057F6CC563CB69C66175247 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		429A34DF3BBD7321C9C7D6FBF5F1E3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33E78335A9459EC83327D52001569C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		511A1AEC977D013E0E70589CC49F4CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81C5ADA4D6D675B99C5A69E19490900 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53229C44EFA748125A0C5E5A622AC773 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AED6D56643416F5EAE5AF5E2067729F /* Foundation.framework in Frameworks */,
+				58770C0E39A32386068079BE54CF31EC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DE12B44191EED00FA155FB37829C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877411942E38D99CC314CB29963ADE5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0D0C02391217F5633106C9A6DAF3D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFCBC48C4DB2362808AA2BF7F497ECA /* Foundation.framework in Frameworks */,
+				063179ACE0537B66646795ABD50D8641 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1DA3D69104F85DD99D5550C2D31388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9F89AF424C8FB7D1FB34D4D0DDECFE /* Foundation.framework in Frameworks */,
+				7F981DEC4D160D6FA5616670316B238F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016B1D6B03A048D5B367DC4DD41ECB6B /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				E23AA3A56E4687368BC968E305448E68 /* FLTextView.swift */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		2088A3285F7AB3CDAC287D511F589071 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A88F407655C96C935F104DDBC37271E8 /* Pods-Cards */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CD19A614820AF8C6897D6B2D388B6D4 /* HWSwiftyViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				B9C997E2E46483577407284316B57334 /* HWSwiftyViewPager.swift */,
+				B63B878E89D4FCC8D0C3654D223C2182 /* Support Files */,
+			);
+			path = HWSwiftyViewPager;
+			sourceTree = "<group>";
+		};
+		6E2E3322B79E74DE299D56B0B1179CD5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E09ABD6FF9F9DC143F074412FDFCC50 /* DZNEmptyDataSet.modulemap */,
+				B356880CC5F8DDD71C093BE66D80888A /* DZNEmptyDataSet.xcconfig */,
+				A1CAA426983BC4FC629A763C74F41ADF /* DZNEmptyDataSet-dummy.m */,
+				CC0600E1E022A506890F064EF9BF5E40 /* DZNEmptyDataSet-prefix.pch */,
+				68F80C4D4561334DF8CA80AEED3CA5B1 /* DZNEmptyDataSet-umbrella.h */,
+				8A204E51107ECD5220B72EB3CBE76ADB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DZNEmptyDataSet";
+			sourceTree = "<group>";
+		};
+		788E0C2810E529FF16B75496B6C9F8B8 /* ZLSwipeableViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				15135C5FAD5669AA5224CEDFB4D1961C /* ZLSwipeableView.swift */,
+				C364E30A85F7711BA687BB1A016AEE98 /* Support Files */,
+			);
+			path = ZLSwipeableViewSwift;
+			sourceTree = "<group>";
+		};
+		7BCA22EA745B6DA0AA1BF10148A935F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0334537F1B473FF682978AE957556BA6 /* Cartography.modulemap */,
+				207878DB03DBD5E7A715788ADD59009C /* Cartography.xcconfig */,
+				7ABF5065471F9A7A40C2DF99717B3AE0 /* Cartography-dummy.m */,
+				132140681CADDBC37151F4B4FA710757 /* Cartography-prefix.pch */,
+				45A6C8803C4C907851BF18979A8C5CFE /* Cartography-umbrella.h */,
+				C29B5975E02E8956160745B6188A3043 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cartography";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				8FA8D31CB1B5D7367F7A856F3361CEA4 /* Pods */,
+				CB0290FDB489847F5543C9E5BBBE7EA2 /* Products */,
+				2088A3285F7AB3CDAC287D511F589071 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89D6F385F66A8D33862E6FEF3C1F9B88 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D79ABAC1FC7139A4F0D6BFC46B5E1338 /* FLTextView.modulemap */,
+				5D137FE071672A61C89E8E907D9E4199 /* FLTextView.xcconfig */,
+				BBADB220C460BAEBDFA68483F6C21E48 /* FLTextView-dummy.m */,
+				40514CC95A52D67EB85F856A8EF342DF /* FLTextView-prefix.pch */,
+				76ACB070A2C4F9036F8A8F94F6CFD00A /* FLTextView-umbrella.h */,
+				C4A59B00F4E5A63483CFC98C3CA10727 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FLTextView";
+			sourceTree = "<group>";
+		};
+		8FA8D31CB1B5D7367F7A856F3361CEA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2E0F2A9A9063B042A09595E1CA3C971 /* Cartography */,
+				C4594BDC7155A405CC66993237515549 /* DZNEmptyDataSet */,
+				E1D8CFA304636DAED3F22E8F0E17DA67 /* FLTextView */,
+				5CD19A614820AF8C6897D6B2D388B6D4 /* HWSwiftyViewPager */,
+				788E0C2810E529FF16B75496B6C9F8B8 /* ZLSwipeableViewSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A88F407655C96C935F104DDBC37271E8 /* Pods-Cards */ = {
+			isa = PBXGroup;
+			children = (
+				DCDAFD7E353438D97A927E644CFB2602 /* Info.plist */,
+				E9ACD208835AEAD4773DC9E1734570CC /* Pods-Cards.modulemap */,
+				0A30988716C04B63704B67A920E62588 /* Pods-Cards-acknowledgements.markdown */,
+				B42329F01BBD1003DE8D7E8061F80D02 /* Pods-Cards-acknowledgements.plist */,
+				15C4A9770345B835AAC7EC116C771888 /* Pods-Cards-dummy.m */,
+				C4D4DE6713ADE437BA713B8C140116A7 /* Pods-Cards-frameworks.sh */,
+				7B41E5C44CD03870BFBEE41936D62824 /* Pods-Cards-resources.sh */,
+				732B3BEE7D0DB9A783CAC4BED6D13EA7 /* Pods-Cards-umbrella.h */,
+				CD6EA6E0F1BD55CF04C59EDD1E9A84A4 /* Pods-Cards.debug.xcconfig */,
+				01B9274364E3F25040FE638FCB92A34E /* Pods-Cards.release.xcconfig */,
+			);
+			name = "Pods-Cards";
+			path = "Target Support Files/Pods-Cards";
+			sourceTree = "<group>";
+		};
+		B2E0F2A9A9063B042A09595E1CA3C971 /* Cartography */ = {
+			isa = PBXGroup;
+			children = (
+				6DA2D81AAE89B119E1DE5776ECF55A4D /* Align.swift */,
+				3A414568D4A56AF7653EB0E8B9161AA5 /* Coefficients.swift */,
+				00CA523BEB6EF085D5A8922CAECC3877 /* Compound.swift */,
+				4288C15ED26AEE6799DC379CABF91BC8 /* Constrain.swift */,
+				85824AA27F2160722812488091951FD7 /* Constraint.swift */,
+				08099BD2119ADD6CB986AD65AD8CE327 /* ConstraintGroup.swift */,
+				35169C11EF9B772EDA8FCE951A84B364 /* Context.swift */,
+				B524E58529A451DB19CD98083A146ED5 /* Dimension.swift */,
+				6C8DCFE1648B7F5350515B875B8ECBA9 /* Distribute.swift */,
+				DA92023CC59A201EBD95916A28F0A7A9 /* Edge.swift */,
+				A6F1196D72358BAEFCD72C125DEEE008 /* Edges.swift */,
+				F7F78C89A057F6CC563CB69C66175247 /* Expression.swift */,
+				EB6367F0B6C1E7E84134187CF0477FA3 /* Extensions.swift */,
+				0B242767BA3478DC239DAB9CF4162281 /* LayoutProxy.swift */,
+				BE1AAC1DFC0F3921A434DEDD4FF3F17F /* Point.swift */,
+				8E31D364EA28748C02E7781BC37C9B10 /* Priority.swift */,
+				E4173BC1425E347C4EE7349FD9FB9363 /* Property.swift */,
+				04EFE649FE8039846BB61C11128E9DF5 /* Size.swift */,
+				A1743A304A4DB77355F2DF6FFFFEE6DF /* View.swift */,
+				51ACCA734B53F16E43D3D8C46256E88A /* ViewUtils.swift */,
+				7BCA22EA745B6DA0AA1BF10148A935F2 /* Support Files */,
+			);
+			path = Cartography;
+			sourceTree = "<group>";
+		};
+		B63B878E89D4FCC8D0C3654D223C2182 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05E4BD358566F247FC19FC5C9C6B37C8 /* HWSwiftyViewPager.modulemap */,
+				EEBE62C1F2DC3C71D6573C2CB311E430 /* HWSwiftyViewPager.xcconfig */,
+				1A5FEFAA3C635AF0EAA06E8C25500F62 /* HWSwiftyViewPager-dummy.m */,
+				730DB4AD6050976BE06A5601C1AB29B6 /* HWSwiftyViewPager-prefix.pch */,
+				349FA2041B8FB4C63BB5C34F8340C661 /* HWSwiftyViewPager-umbrella.h */,
+				C213EE87426DC08068C401AE652D97FB /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HWSwiftyViewPager";
+			sourceTree = "<group>";
+		};
+		C364E30A85F7711BA687BB1A016AEE98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D228773BD7818371E298A9B33CF20B20 /* Info.plist */,
+				4B528629018FE7B37ED5A2AED2F38BA0 /* ZLSwipeableViewSwift.modulemap */,
+				9746620E99A4BE3F420FAB0A0C1FF694 /* ZLSwipeableViewSwift.xcconfig */,
+				A137A7D51BD9E22FDDA9783013F5EB1F /* ZLSwipeableViewSwift-dummy.m */,
+				0A74F10FE40D28FE6E2568E06625B152 /* ZLSwipeableViewSwift-prefix.pch */,
+				C8FAA675DD599389DCE588D004FE5789 /* ZLSwipeableViewSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZLSwipeableViewSwift";
+			sourceTree = "<group>";
+		};
+		C4594BDC7155A405CC66993237515549 /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				B52E57B35D702A90A99595B179B9F2D5 /* UIScrollView+EmptyDataSet.h */,
+				F3505290FDE32A991E0E74398E355EBD /* UIScrollView+EmptyDataSet.m */,
+				6E2E3322B79E74DE299D56B0B1179CD5 /* Support Files */,
+			);
+			path = DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		CB0290FDB489847F5543C9E5BBBE7EA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF08C07E6973CDA9AAE7C4BE127832 /* Cartography.framework */,
+				6EB216B7B15EA4FF9428DB982C83B95C /* DZNEmptyDataSet.framework */,
+				ACE9488DE8972C58DE83A7AC985BCDDB /* FLTextView.framework */,
+				D539C3D5FB742EEEEF88BA8C6735B5EF /* HWSwiftyViewPager.framework */,
+				E08A0821B51DFCEA31D6C71B6E807DB3 /* Pods_Cards.framework */,
+				1D4E125CE2C816230A6549D17479207A /* ZLSwipeableViewSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1D8CFA304636DAED3F22E8F0E17DA67 /* FLTextView */ = {
+			isa = PBXGroup;
+			children = (
+				016B1D6B03A048D5B367DC4DD41ECB6B /* Default */,
+				89D6F385F66A8D33862E6FEF3C1F9B88 /* Support Files */,
+			);
+			path = FLTextView;
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		024C99045AEF7B503E9D33B7C2AB6C61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8BFBDA1110FD4E0AD7C53CDB1C897B /* FLTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D9C9A2043A53A3AE91808894C7E05FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B116B651388E34E3CE3E9097BC83D47F /* DZNEmptyDataSet-umbrella.h in Headers */,
+				E14B01B2BDDA7C86AC2EBC45FCFEF52E /* UIScrollView+EmptyDataSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		514705BF944036B79FA99816C564643C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90891688A088BC37455234028C2E993 /* Cartography-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7013F66BA1E53F7D03CD69137506C1E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8371851987769454FE6243E0330C99B7 /* HWSwiftyViewPager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9773F7E136C607D2988F362D711AEA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C556268A7E80C64061C12724D82A1B0 /* ZLSwipeableViewSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84B281734CEF2A4F931969009327566 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D770D943708CFCCD87F0AAC654FB82C1 /* Pods-Cards-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07BC22275DE0810BF7ABE379D4EAACE3 /* FLTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16D6AC18355EB66891B77F0F69651959 /* Build configuration list for PBXNativeTarget "FLTextView" */;
+			buildPhases = (
+				2AA3C09996707760A8E6E0B7FBEFB564 /* Sources */,
+				DD0D0C02391217F5633106C9A6DAF3D0 /* Frameworks */,
+				024C99045AEF7B503E9D33B7C2AB6C61 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLTextView;
+			productName = FLTextView;
+			productReference = ACE9488DE8972C58DE83A7AC985BCDDB /* FLTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		16FB872D0D2D4BA0F378AB34D47CF95F /* DZNEmptyDataSet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECB532EC0EA88D6927C7A7673C25700 /* Build configuration list for PBXNativeTarget "DZNEmptyDataSet" */;
+			buildPhases = (
+				C5EE2B8C478333F5942E30C6FF944370 /* Sources */,
+				FE1DA3D69104F85DD99D5550C2D31388 /* Frameworks */,
+				4D9C9A2043A53A3AE91808894C7E05FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZNEmptyDataSet;
+			productName = DZNEmptyDataSet;
+			productReference = 6EB216B7B15EA4FF9428DB982C83B95C /* DZNEmptyDataSet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2430D54F1C11F04C76372A346FC9951E /* ZLSwipeableViewSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2DF0918295785C8A24371460EEBD520 /* Build configuration list for PBXNativeTarget "ZLSwipeableViewSwift" */;
+			buildPhases = (
+				6CD87F2996A64301700D089A2D45CFDE /* Sources */,
+				53229C44EFA748125A0C5E5A622AC773 /* Frameworks */,
+				A9773F7E136C607D2988F362D711AEA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLSwipeableViewSwift;
+			productName = ZLSwipeableViewSwift;
+			productReference = 1D4E125CE2C816230A6549D17479207A /* ZLSwipeableViewSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9567D183A14ACF20E09E03E368DD892 /* Pods-Cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E2A7E8258B953714D94A6C9A08F40EB /* Build configuration list for PBXNativeTarget "Pods-Cards" */;
+			buildPhases = (
+				B5E7A53267C403B05D0C586FAA276DD9 /* Sources */,
+				511A1AEC977D013E0E70589CC49F4CCC /* Frameworks */,
+				D84B281734CEF2A4F931969009327566 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36195389A5E4509AEA257B824647F300 /* PBXTargetDependency */,
+				E096E448FA2530E41E7477EB10E957D3 /* PBXTargetDependency */,
+				389CFED7B93BAAD73AC39C79B677B4C3 /* PBXTargetDependency */,
+				504EF213F2BAB0C9693D49A7E2150515 /* PBXTargetDependency */,
+				EFA95A6325E22B48FD0022003878C467 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cards";
+			productName = "Pods-Cards";
+			productReference = E08A0821B51DFCEA31D6C71B6E807DB3 /* Pods_Cards.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFFF6E24FA4F8646CE24D5B311BB6BA2 /* HWSwiftyViewPager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220F6693E9F38483B0B761758195893D /* Build configuration list for PBXNativeTarget "HWSwiftyViewPager" */;
+			buildPhases = (
+				C2932F7AF779C0B6DBA1AE2AEF530377 /* Sources */,
+				93DE12B44191EED00FA155FB37829C94 /* Frameworks */,
+				7013F66BA1E53F7D03CD69137506C1E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HWSwiftyViewPager;
+			productName = HWSwiftyViewPager;
+			productReference = D539C3D5FB742EEEEF88BA8C6735B5EF /* HWSwiftyViewPager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3A04698AAE4D6124C20602D622956E5 /* Cartography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22DC939D187391042315573DBEE7623 /* Build configuration list for PBXNativeTarget "Cartography" */;
+			buildPhases = (
+				B962ED42E882856B9D168260BB18AE95 /* Sources */,
+				429A34DF3BBD7321C9C7D6FBF5F1E3FB /* Frameworks */,
+				514705BF944036B79FA99816C564643C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cartography;
+			productName = Cartography;
+			productReference = E2CF08C07E6973CDA9AAE7C4BE127832 /* Cartography.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CB0290FDB489847F5543C9E5BBBE7EA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3A04698AAE4D6124C20602D622956E5 /* Cartography */,
+				16FB872D0D2D4BA0F378AB34D47CF95F /* DZNEmptyDataSet */,
+				07BC22275DE0810BF7ABE379D4EAACE3 /* FLTextView */,
+				BFFF6E24FA4F8646CE24D5B311BB6BA2 /* HWSwiftyViewPager */,
+				B9567D183A14ACF20E09E03E368DD892 /* Pods-Cards */,
+				2430D54F1C11F04C76372A346FC9951E /* ZLSwipeableViewSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AA3C09996707760A8E6E0B7FBEFB564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B58B3C26DFA2A6F79843B0160AAB75 /* FLTextView-dummy.m in Sources */,
+				B5180B2E40DD0411764FE4E086A37A61 /* FLTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD87F2996A64301700D089A2D45CFDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97679A26758D9E2F43DDFFA0269B583 /* ZLSwipeableView.swift in Sources */,
+				C0857F13A9E13C0A51A4629EB05C9D01 /* ZLSwipeableViewSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E7A53267C403B05D0C586FAA276DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997D0F6B64CD6E02153972074DF6FD9C /* Pods-Cards-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B962ED42E882856B9D168260BB18AE95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584B68A7069844742AEF67ED9311FF50 /* Align.swift in Sources */,
+				D56BD3B0ACF32790F3EF43EA3DB08016 /* Cartography-dummy.m in Sources */,
+				EE94E3F06DA2F096BA43F0679567DC4B /* Coefficients.swift in Sources */,
+				28515F6FFAA0E2F9591A862D532F33AC /* Compound.swift in Sources */,
+				D2C9087C6581055C25D5559F934AF65B /* Constrain.swift in Sources */,
+				F469BC9885602957FCB73DD39B5B92B0 /* Constraint.swift in Sources */,
+				E1451AA498D7B41C4E049F5D9027B4A7 /* ConstraintGroup.swift in Sources */,
+				452C09D0CAC1F8286ABA1CE076033B23 /* Context.swift in Sources */,
+				0729DED1737DCDB309394E0B59393F37 /* Dimension.swift in Sources */,
+				369CA2AACEED2517C99D77D7700DFCEA /* Distribute.swift in Sources */,
+				2057FF930EF0F28E7AD548BF23BE78EE /* Edge.swift in Sources */,
+				5044CA9F7CCBB02F3C294106022FCF9F /* Edges.swift in Sources */,
+				7CD04D81B5ED213A105DFC517187EB87 /* Expression.swift in Sources */,
+				BE2FC20F5EDBAE658F688978AB12C279 /* Extensions.swift in Sources */,
+				8378B61D28075525380201114F6E4582 /* LayoutProxy.swift in Sources */,
+				D3C01862D88692FA2E85A2D84345982B /* Point.swift in Sources */,
+				C3649839064E53A4BF767D2EF29651EF /* Priority.swift in Sources */,
+				EB9E85B0CE6A53DCBDE040A716B5DBF8 /* Property.swift in Sources */,
+				B23E3B878363F72D1E874E46EB62FA7F /* Size.swift in Sources */,
+				F95ADCA0B85C6C0640372D3EFBBF1AD6 /* View.swift in Sources */,
+				48ADE3FB3F30FCA5893083351449DA98 /* ViewUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2932F7AF779C0B6DBA1AE2AEF530377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FAC590BADB45B1BF0F606757433586 /* HWSwiftyViewPager-dummy.m in Sources */,
+				BC1B8F82941961226B36A21F72F37B0F /* HWSwiftyViewPager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5EE2B8C478333F5942E30C6FF944370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DC2D74E9117167CD17FD04C327EB9D /* DZNEmptyDataSet-dummy.m in Sources */,
+				3BC49A2B50306C45D4EBCAA50600EBE7 /* UIScrollView+EmptyDataSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36195389A5E4509AEA257B824647F300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cartography;
+			target = C3A04698AAE4D6124C20602D622956E5 /* Cartography */;
+			targetProxy = C28C940CB354F9E5016002E41D5DA0F8 /* PBXContainerItemProxy */;
+		};
+		389CFED7B93BAAD73AC39C79B677B4C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLTextView;
+			target = 07BC22275DE0810BF7ABE379D4EAACE3 /* FLTextView */;
+			targetProxy = 3DF008052298D346B67E37BA6325BC8B /* PBXContainerItemProxy */;
+		};
+		504EF213F2BAB0C9693D49A7E2150515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HWSwiftyViewPager;
+			target = BFFF6E24FA4F8646CE24D5B311BB6BA2 /* HWSwiftyViewPager */;
+			targetProxy = ACDF2731764B6093CBE16959E65E1727 /* PBXContainerItemProxy */;
+		};
+		E096E448FA2530E41E7477EB10E957D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZNEmptyDataSet;
+			target = 16FB872D0D2D4BA0F378AB34D47CF95F /* DZNEmptyDataSet */;
+			targetProxy = 52F680E3B8C56E35195842578EE6FECE /* PBXContainerItemProxy */;
+		};
+		EFA95A6325E22B48FD0022003878C467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLSwipeableViewSwift;
+			target = 2430D54F1C11F04C76372A346FC9951E /* ZLSwipeableViewSwift */;
+			targetProxy = 4BA811C0E1987FDE561AB64D8E647092 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A79383A54B487E28E4C302C30B4220A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207878DB03DBD5E7A715788ADD59009C /* Cartography.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D70797F4D691FBA8793F14AF4CDCC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B356880CC5F8DDD71C093BE66D80888A /* DZNEmptyDataSet.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZNEmptyDataSet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DZNEmptyDataSet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		401181344D9E4A1081ADD0D967E37A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B356880CC5F8DDD71C093BE66D80888A /* DZNEmptyDataSet.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZNEmptyDataSet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DZNEmptyDataSet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		461C1205B4FBC0100467B2E7F64AB544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBE62C1F2DC3C71D6573C2CB311E430 /* HWSwiftyViewPager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HWSwiftyViewPager/HWSwiftyViewPager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HWSwiftyViewPager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HWSwiftyViewPager/HWSwiftyViewPager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HWSwiftyViewPager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		75C1C46BAA47A7B13FD75629F3566B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D137FE071672A61C89E8E907D9E4199 /* FLTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLTextView/FLTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLTextView/FLTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FLTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84E3505FB8AED42BF4F461D2A74B9B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B9274364E3F25040FE638FCB92A34E /* Pods-Cards.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cards/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cards/Pods-Cards.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cards;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4474F4BF89516A6E746D29B9E73DC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 207878DB03DBD5E7A715788ADD59009C /* Cartography.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B81AD0894B4A6388BBC233D49AECF306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6EA6E0F1BD55CF04C59EDD1E9A84A4 /* Pods-Cards.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Cards/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cards/Pods-Cards.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Cards;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BAC0F1966E3E1423271ECCE4D9D27EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBE62C1F2DC3C71D6573C2CB311E430 /* HWSwiftyViewPager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HWSwiftyViewPager/HWSwiftyViewPager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HWSwiftyViewPager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HWSwiftyViewPager/HWSwiftyViewPager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HWSwiftyViewPager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6EC4C73DACF28A32D5DB140D00BCAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9746620E99A4BE3F420FAB0A0C1FF694 /* ZLSwipeableViewSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZLSwipeableViewSwift/ZLSwipeableViewSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLSwipeableViewSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLSwipeableViewSwift/ZLSwipeableViewSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZLSwipeableViewSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2569D7298B3CE687ACA0BDE9C03B6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D137FE071672A61C89E8E907D9E4199 /* FLTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLTextView/FLTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FLTextView/FLTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FLTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED08E8B4066966AB58E9D61F650D05D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9746620E99A4BE3F420FAB0A0C1FF694 /* ZLSwipeableViewSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZLSwipeableViewSwift/ZLSwipeableViewSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLSwipeableViewSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLSwipeableViewSwift/ZLSwipeableViewSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZLSwipeableViewSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16D6AC18355EB66891B77F0F69651959 /* Build configuration list for PBXNativeTarget "FLTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75C1C46BAA47A7B13FD75629F3566B4E /* Debug */,
+				E2569D7298B3CE687ACA0BDE9C03B6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220F6693E9F38483B0B761758195893D /* Build configuration list for PBXNativeTarget "HWSwiftyViewPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461C1205B4FBC0100467B2E7F64AB544 /* Debug */,
+				BAC0F1966E3E1423271ECCE4D9D27EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECB532EC0EA88D6927C7A7673C25700 /* Build configuration list for PBXNativeTarget "DZNEmptyDataSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				401181344D9E4A1081ADD0D967E37A19 /* Debug */,
+				2D70797F4D691FBA8793F14AF4CDCC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E2A7E8258B953714D94A6C9A08F40EB /* Build configuration list for PBXNativeTarget "Pods-Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B81AD0894B4A6388BBC233D49AECF306 /* Debug */,
+				84E3505FB8AED42BF4F461D2A74B9B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22DC939D187391042315573DBEE7623 /* Build configuration list for PBXNativeTarget "Cartography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4474F4BF89516A6E746D29B9E73DC03 /* Debug */,
+				1A79383A54B487E28E4C302C30B4220A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2DF0918295785C8A24371460EEBD520 /* Build configuration list for PBXNativeTarget "ZLSwipeableViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6EC4C73DACF28A32D5DB140D00BCAE6 /* Debug */,
+				ED08E8B4066966AB58E9D61F650D05D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -7,21 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6F1ACD4454D36703DD1D138 /* Pods_Cards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A6AF27897D674A29792854 /* Pods_Cards.framework */; };
+		E8535F3B1CF4966C00824F6A /* CardAddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8535F3A1CF4966C00824F6A /* CardAddTableViewController.swift */; };
+		E8535F3D1CF4984C00824F6A /* CardEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8535F3C1CF4984C00824F6A /* CardEditTableViewController.swift */; };
+		E8535F3F1CF4986B00824F6A /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8535F3E1CF4986B00824F6A /* CardDetailViewController.swift */; };
+		E8535F411CF49D0500824F6A /* ClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8535F401CF49D0500824F6A /* ClearButton.swift */; };
+		E8535F461CF49F6200824F6A /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8535F451CF49F6200824F6A /* Toolbar.swift */; };
+		E8535F481CF4A1AC00824F6A /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8535F471CF4A1AC00824F6A /* UITableViewCell.swift */; };
+		E8535F4A1CF4A24A00824F6A /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8535F491CF4A24A00824F6A /* UITableView.swift */; };
+		E8535F4C1CF4A38400824F6A /* NSIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8535F4B1CF4A38400824F6A /* NSIndexPath.swift */; };
+		E8535F531CF4B59F00824F6A /* TextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8535F511CF4B59F00824F6A /* TextViewCell.swift */; };
+		E8535F571CF4E72800824F6A /* PickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8535F551CF4E72800824F6A /* PickerViewCell.swift */; };
+		E8535F5B1CF5CC8F00824F6A /* CardCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8535F591CF5CC8F00824F6A /* CardCollectionCell.swift */; };
+		E87377F01CF439D2004B28EC /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87377EF1CF439D2004B28EC /* UIView.swift */; };
+		E87377F51CF43AB9004B28EC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E87377F41CF43AB9004B28EC /* Podfile */; };
+		E87377F71CF43E6E004B28EC /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87377F61CF43E6E004B28EC /* UIFont.swift */; };
+		E87377F91CF43EA4004B28EC /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87377F81CF43EA4004B28EC /* NSAttributedString.swift */; };
+		E87377FC1CF43EEA004B28EC /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87377FB1CF43EEA004B28EC /* Functions.swift */; };
+		E87377FE1CF451E5004B28EC /* DeckDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87377FD1CF451E5004B28EC /* DeckDetailTableViewController.swift */; };
+		E87378011CF45309004B28EC /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87377FF1CF45309004B28EC /* CardTableViewCell.swift */; };
+		E87378021CF45309004B28EC /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E87378001CF45309004B28EC /* CardTableViewCell.xib */; };
+		E87378041CF45D5C004B28EC /* DeckAddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87378031CF45D5C004B28EC /* DeckAddTableViewController.swift */; };
+		E87378061CF46530004B28EC /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87378051CF46530004B28EC /* String.swift */; };
+		E87378081CF465A5004B28EC /* DeckEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87378071CF465A5004B28EC /* DeckEditTableViewController.swift */; };
+		E883AB7A1CF6DC0B00349D4F /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883AB791CF6DC0B00349D4F /* ShowViewController.swift */; };
+		E883AB7C1CF6DCEA00349D4F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883AB7B1CF6DCEA00349D4F /* CardView.swift */; };
+		E883AB7F1CF6DEB100349D4F /* CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883AB7E1CF6DEB100349D4F /* CollectionType.swift */; };
 		E8FF58F91CF3360E00683FED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FF58F81CF3360E00683FED /* AppDelegate.swift */; };
-		E8FF58FB1CF3360E00683FED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FF58FA1CF3360E00683FED /* ViewController.swift */; };
 		E8FF58FE1CF3360E00683FED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FF58FC1CF3360E00683FED /* Main.storyboard */; };
 		E8FF59001CF3360E00683FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FF58FF1CF3360E00683FED /* Assets.xcassets */; };
 		E8FF59031CF3360E00683FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FF59011CF3360E00683FED /* LaunchScreen.storyboard */; };
+		E8FF590E1CF3369200683FED /* DeckListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FF590D1CF3369200683FED /* DeckListTableViewController.swift */; };
+		E8FF59161CF33BB100683FED /* Cards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8FF59141CF33BB100683FED /* Cards.xcdatamodeld */; };
+		E8FF591B1CF33C4000683FED /* Card+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FF59171CF33C4000683FED /* Card+CoreDataProperties.swift */; };
+		E8FF591C1CF33C4000683FED /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FF59181CF33C4000683FED /* Card.swift */; };
+		E8FF591D1CF33C4000683FED /* Deck+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FF59191CF33C4000683FED /* Deck+CoreDataProperties.swift */; };
+		E8FF591E1CF33C4000683FED /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FF591A1CF33C4000683FED /* Deck.swift */; };
+		E8FF59221CF33C9D00683FED /* Cards.db in Resources */ = {isa = PBXBuildFile; fileRef = E8FF591F1CF33C9D00683FED /* Cards.db */; };
+		E8FF59231CF33C9D00683FED /* Cards.db-shm in Resources */ = {isa = PBXBuildFile; fileRef = E8FF59201CF33C9D00683FED /* Cards.db-shm */; };
+		E8FF59241CF33C9D00683FED /* Cards.db-wal in Resources */ = {isa = PBXBuildFile; fileRef = E8FF59211CF33C9D00683FED /* Cards.db-wal */; };
+		E8FF59271CF33D5300683FED /* CardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FF59261CF33D5300683FED /* CardsModel.swift */; };
+		E8FF59291CF33D7100683FED /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FF59281CF33D7100683FED /* CoreData.swift */; };
+		E8FF59301CF34A9C00683FED /* DeckTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FF592E1CF34A9C00683FED /* DeckTableViewCell.swift */; };
+		E8FF59311CF34A9C00683FED /* DeckTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8FF592F1CF34A9C00683FED /* DeckTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03A6AF27897D674A29792854 /* Pods_Cards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10EE66D5F5D5733F9EAA8FE1 /* Pods-Cards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cards/Pods-Cards.debug.xcconfig"; sourceTree = "<group>"; };
+		E76CDA28BC18AB2B982B0A79 /* Pods-Cards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cards.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cards/Pods-Cards.release.xcconfig"; sourceTree = "<group>"; };
+		E8535F3A1CF4966C00824F6A /* CardAddTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardAddTableViewController.swift; sourceTree = "<group>"; };
+		E8535F3C1CF4984C00824F6A /* CardEditTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardEditTableViewController.swift; sourceTree = "<group>"; };
+		E8535F3E1CF4986B00824F6A /* CardDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
+		E8535F401CF49D0500824F6A /* ClearButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearButton.swift; sourceTree = "<group>"; };
+		E8535F451CF49F6200824F6A /* Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
+		E8535F471CF4A1AC00824F6A /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		E8535F491CF4A24A00824F6A /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		E8535F4B1CF4A38400824F6A /* NSIndexPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSIndexPath.swift; sourceTree = "<group>"; };
+		E8535F511CF4B59F00824F6A /* TextViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewCell.swift; sourceTree = "<group>"; };
+		E8535F551CF4E72800824F6A /* PickerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewCell.swift; sourceTree = "<group>"; };
+		E8535F591CF5CC8F00824F6A /* CardCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionCell.swift; sourceTree = "<group>"; };
+		E87377EF1CF439D2004B28EC /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		E87377F11CF43AA3004B28EC /* Cards-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cards-Bridging-Header.h"; sourceTree = "<group>"; };
+		E87377F41CF43AB9004B28EC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E87377F61CF43E6E004B28EC /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		E87377F81CF43EA4004B28EC /* NSAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
+		E87377FB1CF43EEA004B28EC /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		E87377FD1CF451E5004B28EC /* DeckDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckDetailTableViewController.swift; sourceTree = "<group>"; };
+		E87377FF1CF45309004B28EC /* CardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		E87378001CF45309004B28EC /* CardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
+		E87378031CF45D5C004B28EC /* DeckAddTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckAddTableViewController.swift; sourceTree = "<group>"; };
+		E87378051CF46530004B28EC /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		E87378071CF465A5004B28EC /* DeckEditTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckEditTableViewController.swift; sourceTree = "<group>"; };
+		E883AB791CF6DC0B00349D4F /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		E883AB7B1CF6DCEA00349D4F /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E883AB7E1CF6DEB100349D4F /* CollectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionType.swift; sourceTree = "<group>"; };
 		E8FF58F51CF3360D00683FED /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FF58F81CF3360E00683FED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8FF58FA1CF3360E00683FED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8FF58FD1CF3360E00683FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8FF58FF1CF3360E00683FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8FF59021CF3360E00683FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8FF59041CF3360E00683FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8FF590D1CF3369200683FED /* DeckListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckListTableViewController.swift; sourceTree = "<group>"; };
+		E8FF59151CF33BB100683FED /* Cards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cards.xcdatamodel; sourceTree = "<group>"; };
+		E8FF59171CF33C4000683FED /* Card+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Card+CoreDataProperties.swift"; path = "Model/Card+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E8FF59181CF33C4000683FED /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Model/Card.swift; sourceTree = "<group>"; };
+		E8FF59191CF33C4000683FED /* Deck+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Deck+CoreDataProperties.swift"; path = "Model/Deck+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E8FF591A1CF33C4000683FED /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Deck.swift; path = Model/Deck.swift; sourceTree = "<group>"; };
+		E8FF591F1CF33C9D00683FED /* Cards.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = Cards.db; path = Model/Database/Cards.db; sourceTree = "<group>"; };
+		E8FF59201CF33C9D00683FED /* Cards.db-shm */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cards.db-shm"; path = "Model/Database/Cards.db-shm"; sourceTree = "<group>"; };
+		E8FF59211CF33C9D00683FED /* Cards.db-wal */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Cards.db-wal"; path = "Model/Database/Cards.db-wal"; sourceTree = "<group>"; };
+		E8FF59261CF33D5300683FED /* CardsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsModel.swift; sourceTree = "<group>"; };
+		E8FF59281CF33D7100683FED /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		E8FF592E1CF34A9C00683FED /* DeckTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckTableViewCell.swift; sourceTree = "<group>"; };
+		E8FF592F1CF34A9C00683FED /* DeckTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeckTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +108,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F1ACD4454D36703DD1D138 /* Pods_Cards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8535F381CF4962700824F6A /* Deck Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8FF590D1CF3369200683FED /* DeckListTableViewController.swift */,
+				E87377FD1CF451E5004B28EC /* DeckDetailTableViewController.swift */,
+				E87378031CF45D5C004B28EC /* DeckAddTableViewController.swift */,
+				E87378071CF465A5004B28EC /* DeckEditTableViewController.swift */,
+			);
+			name = "Deck Controllers";
+			sourceTree = "<group>";
+		};
+		E8535F391CF4964100824F6A /* Card Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8535F3A1CF4966C00824F6A /* CardAddTableViewController.swift */,
+				E8535F3C1CF4984C00824F6A /* CardEditTableViewController.swift */,
+				E8535F3E1CF4986B00824F6A /* CardDetailViewController.swift */,
+			);
+			name = "Card Controllers";
+			sourceTree = "<group>";
+		};
+		E8535F421CF49D1000824F6A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E8535F591CF5CC8F00824F6A /* CardCollectionCell.swift */,
+				E8FF592E1CF34A9C00683FED /* DeckTableViewCell.swift */,
+				E8FF592F1CF34A9C00683FED /* DeckTableViewCell.xib */,
+				E87377FF1CF45309004B28EC /* CardTableViewCell.swift */,
+				E87378001CF45309004B28EC /* CardTableViewCell.xib */,
+				E8535F511CF4B59F00824F6A /* TextViewCell.swift */,
+				E8535F551CF4E72800824F6A /* PickerViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		E87377EE1CF439B4004B28EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E87377EF1CF439D2004B28EC /* UIView.swift */,
+				E87377F61CF43E6E004B28EC /* UIFont.swift */,
+				E87377F81CF43EA4004B28EC /* NSAttributedString.swift */,
+				E87378051CF46530004B28EC /* String.swift */,
+				E8535F471CF4A1AC00824F6A /* UITableViewCell.swift */,
+				E8535F491CF4A24A00824F6A /* UITableView.swift */,
+				E8535F4B1CF4A38400824F6A /* NSIndexPath.swift */,
+				E883AB7E1CF6DEB100349D4F /* CollectionType.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E87377FA1CF43ED1004B28EC /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				E87377FB1CF43EEA004B28EC /* Functions.swift */,
+			);
+			name = Functions;
+			sourceTree = "<group>";
+		};
+		E883AB7D1CF6DDE600349D4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8FF59041CF3360E00683FED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8D8E60BA9FBB5BE3CAADB79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10EE66D5F5D5733F9EAA8FE1 /* Pods-Cards.debug.xcconfig */,
+				E76CDA28BC18AB2B982B0A79 /* Pods-Cards.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E8FF58EC1CF3360D00683FED = {
 			isa = PBXGroup;
 			children = (
+				E87377F41CF43AB9004B28EC /* Podfile */,
 				E8FF58F71CF3360E00683FED /* Cards */,
 				E8FF58F61CF3360D00683FED /* Products */,
+				E87377F11CF43AA3004B28EC /* Cards-Bridging-Header.h */,
+				E8D8E60BA9FBB5BE3CAADB79 /* Pods */,
+				F4A90D3885AC9DDD2BF066D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +213,96 @@
 		E8FF58F71CF3360E00683FED /* Cards */ = {
 			isa = PBXGroup;
 			children = (
-				E8FF58F81CF3360E00683FED /* AppDelegate.swift */,
-				E8FF58FA1CF3360E00683FED /* ViewController.swift */,
-				E8FF58FC1CF3360E00683FED /* Main.storyboard */,
-				E8FF58FF1CF3360E00683FED /* Assets.xcassets */,
-				E8FF59011CF3360E00683FED /* LaunchScreen.storyboard */,
-				E8FF59041CF3360E00683FED /* Info.plist */,
+				E8FF590A1CF3363800683FED /* AppDelegate */,
+				E8FF590B1CF3364200683FED /* Storyboards */,
+				E8FF59131CF33B8700683FED /* Models */,
+				E8FF59101CF33A3800683FED /* Views */,
+				E8FF590F1CF3369B00683FED /* Controllers */,
+				E8FF590C1CF3365F00683FED /* Resources */,
+				E87377EE1CF439B4004B28EC /* Extensions */,
+				E87377FA1CF43ED1004B28EC /* Functions */,
+				E883AB7D1CF6DDE600349D4F /* Supporting Files */,
 			);
 			path = Cards;
+			sourceTree = "<group>";
+		};
+		E8FF590A1CF3363800683FED /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E8FF58F81CF3360E00683FED /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E8FF590B1CF3364200683FED /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E8FF58FC1CF3360E00683FED /* Main.storyboard */,
+				E8FF59011CF3360E00683FED /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		E8FF590C1CF3365F00683FED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8FF58FF1CF3360E00683FED /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E8FF590F1CF3369B00683FED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E883AB791CF6DC0B00349D4F /* ShowViewController.swift */,
+				E8535F381CF4962700824F6A /* Deck Controllers */,
+				E8535F391CF4964100824F6A /* Card Controllers */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E8FF59101CF33A3800683FED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E8535F421CF49D1000824F6A /* Cells */,
+				E8535F401CF49D0500824F6A /* ClearButton.swift */,
+				E8535F451CF49F6200824F6A /* Toolbar.swift */,
+				E883AB7B1CF6DCEA00349D4F /* CardView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E8FF59131CF33B8700683FED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E8FF59191CF33C4000683FED /* Deck+CoreDataProperties.swift */,
+				E8FF59171CF33C4000683FED /* Card+CoreDataProperties.swift */,
+				E8FF591A1CF33C4000683FED /* Deck.swift */,
+				E8FF59181CF33C4000683FED /* Card.swift */,
+				E8FF59261CF33D5300683FED /* CardsModel.swift */,
+				E8FF59281CF33D7100683FED /* CoreData.swift */,
+				E8FF59141CF33BB100683FED /* Cards.xcdatamodeld */,
+				E8FF59251CF33CA300683FED /* Database */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E8FF59251CF33CA300683FED /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				E8FF591F1CF33C9D00683FED /* Cards.db */,
+				E8FF59201CF33C9D00683FED /* Cards.db-shm */,
+				E8FF59211CF33C9D00683FED /* Cards.db-wal */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		F4A90D3885AC9DDD2BF066D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03A6AF27897D674A29792854 /* Pods_Cards.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +312,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8FF59071CF3360E00683FED /* Build configuration list for PBXNativeTarget "Cards" */;
 			buildPhases = (
+				5BD7DA0D8A8272B5F18F8B19 /* 📦 Check Pods Manifest.lock */,
 				E8FF58F11CF3360D00683FED /* Sources */,
 				E8FF58F21CF3360D00683FED /* Frameworks */,
 				E8FF58F31CF3360D00683FED /* Resources */,
+				8824504C4A735B75C3B293A0 /* 📦 Embed Pods Frameworks */,
+				83560403C88C71460CF3424D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,20 +368,105 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8FF59031CF3360E00683FED /* LaunchScreen.storyboard in Resources */,
+				E8FF59311CF34A9C00683FED /* DeckTableViewCell.xib in Resources */,
+				E87377F51CF43AB9004B28EC /* Podfile in Resources */,
+				E8FF59221CF33C9D00683FED /* Cards.db in Resources */,
+				E8FF59231CF33C9D00683FED /* Cards.db-shm in Resources */,
 				E8FF59001CF3360E00683FED /* Assets.xcassets in Resources */,
+				E8FF59241CF33C9D00683FED /* Cards.db-wal in Resources */,
 				E8FF58FE1CF3360E00683FED /* Main.storyboard in Resources */,
+				E87378021CF45309004B28EC /* CardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BD7DA0D8A8272B5F18F8B19 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83560403C88C71460CF3424D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cards/Pods-Cards-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8824504C4A735B75C3B293A0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cards/Pods-Cards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E8FF58F11CF3360D00683FED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8FF58FB1CF3360E00683FED /* ViewController.swift in Sources */,
+				E8FF59271CF33D5300683FED /* CardsModel.swift in Sources */,
+				E8FF591D1CF33C4000683FED /* Deck+CoreDataProperties.swift in Sources */,
+				E8535F461CF49F6200824F6A /* Toolbar.swift in Sources */,
+				E87377F01CF439D2004B28EC /* UIView.swift in Sources */,
+				E87377FC1CF43EEA004B28EC /* Functions.swift in Sources */,
+				E8535F4A1CF4A24A00824F6A /* UITableView.swift in Sources */,
+				E8535F4C1CF4A38400824F6A /* NSIndexPath.swift in Sources */,
+				E8FF591C1CF33C4000683FED /* Card.swift in Sources */,
+				E8535F3D1CF4984C00824F6A /* CardEditTableViewController.swift in Sources */,
+				E8FF59291CF33D7100683FED /* CoreData.swift in Sources */,
+				E8FF591B1CF33C4000683FED /* Card+CoreDataProperties.swift in Sources */,
+				E8FF591E1CF33C4000683FED /* Deck.swift in Sources */,
+				E87378041CF45D5C004B28EC /* DeckAddTableViewController.swift in Sources */,
+				E8535F5B1CF5CC8F00824F6A /* CardCollectionCell.swift in Sources */,
+				E883AB7F1CF6DEB100349D4F /* CollectionType.swift in Sources */,
+				E87378081CF465A5004B28EC /* DeckEditTableViewController.swift in Sources */,
+				E8535F411CF49D0500824F6A /* ClearButton.swift in Sources */,
+				E8535F3B1CF4966C00824F6A /* CardAddTableViewController.swift in Sources */,
+				E8FF59301CF34A9C00683FED /* DeckTableViewCell.swift in Sources */,
+				E8535F3F1CF4986B00824F6A /* CardDetailViewController.swift in Sources */,
+				E87377F71CF43E6E004B28EC /* UIFont.swift in Sources */,
+				E8FF590E1CF3369200683FED /* DeckListTableViewController.swift in Sources */,
+				E87378061CF46530004B28EC /* String.swift in Sources */,
 				E8FF58F91CF3360E00683FED /* AppDelegate.swift in Sources */,
+				E883AB7A1CF6DC0B00349D4F /* ShowViewController.swift in Sources */,
+				E87377F91CF43EA4004B28EC /* NSAttributedString.swift in Sources */,
+				E87377FE1CF451E5004B28EC /* DeckDetailTableViewController.swift in Sources */,
+				E8FF59161CF33BB100683FED /* Cards.xcdatamodeld in Sources */,
+				E8535F571CF4E72800824F6A /* PickerViewCell.swift in Sources */,
+				E8535F531CF4B59F00824F6A /* TextViewCell.swift in Sources */,
+				E87378011CF45309004B28EC /* CardTableViewCell.swift in Sources */,
+				E883AB7C1CF6DCEA00349D4F /* CardView.swift in Sources */,
+				E8535F481CF4A1AC00824F6A /* UITableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,23 +579,30 @@
 		};
 		E8FF59081CF3360E00683FED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10EE66D5F5D5733F9EAA8FE1 /* Pods-Cards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Cards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vdsoftware.Cards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cards-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		E8FF59091CF3360E00683FED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E76CDA28BC18AB2B982B0A79 /* Pods-Cards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Cards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vdsoftware.Cards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cards-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -289,8 +625,23 @@
 				E8FF59091CF3360E00683FED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8FF59141CF33BB100683FED /* Cards.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8FF59151CF33BB100683FED /* Cards.xcdatamodel */,
+			);
+			currentVersion = E8FF59151CF33BB100683FED /* Cards.xcdatamodel */;
+			name = Cards.xcdatamodeld;
+			path = Model/Cards.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E8FF58ED1CF3360D00683FED /* Project object */;
 }

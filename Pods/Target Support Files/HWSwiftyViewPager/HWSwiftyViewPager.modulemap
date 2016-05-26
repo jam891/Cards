@@ -1,0 +1,6 @@
+framework module HWSwiftyViewPager {
+  umbrella header "HWSwiftyViewPager-umbrella.h"
+
+  export *
+  module * { export * }
+}

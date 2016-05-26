@@ -1,0 +1,26 @@
+PODS:
+  - Cartography (0.6.0)
+  - DZNEmptyDataSet (1.8.1)
+  - FLTextView (1.0.2):
+    - FLTextView/Default (= 1.0.2)
+  - FLTextView/Default (1.0.2)
+  - HWSwiftyViewPager (1.2)
+  - ZLSwipeableViewSwift (0.0.6)
+
+DEPENDENCIES:
+  - Cartography
+  - DZNEmptyDataSet
+  - FLTextView
+  - HWSwiftyViewPager
+  - ZLSwipeableViewSwift
+
+SPEC CHECKSUMS:
+  Cartography: 70af183a248547694a8cfaa6b989cb7e04589985
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FLTextView: e84bb23e1e078d749219724fef86d4a149cfc04a
+  HWSwiftyViewPager: df5419e9ee3dc712ab8aa991ff6f7e8f438f01da
+  ZLSwipeableViewSwift: f252438a48d20b1687eba0083762be4c13448da2
+
+PODFILE CHECKSUM: 2ef6b29f95088abd8b37a2b15f3479fd601ba85b
+
+COCOAPODS: 1.0.0
