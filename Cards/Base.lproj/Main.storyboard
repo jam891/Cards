@@ -169,7 +169,7 @@
                                 </items>
                             </toolbar>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Vsc-zy-mVd" secondAttribute="trailing" id="3XO-1J-BsU"/>
                             <constraint firstItem="lVL-zi-6vU" firstAttribute="top" secondItem="Vsc-zy-mVd" secondAttribute="bottom" id="6nV-X8-Yj1"/>
@@ -225,6 +225,12 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yi0-xX-JaI">
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="1nH-lm-Mem"/>
+                                    <barButtonItem title="Reload" id="45K-wy-71q">
+                                        <connections>
+                                            <action selector="reload:" destination="4qN-fO-vdt" id="Vci-1d-XZd"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="DWs-Ij-hvy"/>
                                     <barButtonItem title="shuffle" id="dDV-Hd-iok">
                                         <connections>
@@ -253,8 +259,16 @@
                             <constraint firstItem="mR8-5X-pjj" firstAttribute="leading" secondItem="sFk-Uh-B4b" secondAttribute="leading" id="zIY-9s-Z3d"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="iWZ-zO-tFQ">
+                        <barButtonItem key="rightBarButtonItem" title="Rewind" id="edv-AX-SxN">
+                            <connections>
+                                <action selector="rewind:" destination="4qN-fO-vdt" id="aTv-Rq-8Rw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="contentView" destination="mR8-5X-pjj" id="ndU-f9-4uj"/>
+                        <outlet property="rewindBarButtonItem" destination="edv-AX-SxN" id="4Cj-Bf-R5j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qJY-dD-TPg" userLabel="First Responder" sceneMemberID="firstResponder"/>
