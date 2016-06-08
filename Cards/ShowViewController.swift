@@ -11,17 +11,19 @@ import Cartography
 import ZLSwipeableViewSwift
 
 class ShowViewController: UIViewController {
-
+    
     @IBOutlet weak var contentView: UIView!
+    @IBOutlet weak var rewindBarButtonItem: UIBarButtonItem!
     
     var swipeableView: ZLSwipeableView!
-
+    
     var cards: [Card]!
     
     var defaultCardSize: CGSize!
     
     var flipped = false
     var isBack = false
+    var tapped = false
     
     var cardIndex = 0
     
@@ -32,20 +34,57 @@ class ShowViewController: UIViewController {
         flipped = isBack
         
         setupSwipeableView()
+        updateRightBarButtonItem()
+    }
+    
+    
+    func findIndex(cards: [Card], _ valueToFind: String) -> Int? {
+        for (index, card) in cards.enumerate() {
+            if card.frontText == valueToFind {
+                return index
+            }
+        }
+        return nil
+    }
+    
+    
+    func swapTwoValues<T>(inout a: T, inout _ b: T) {
+        let temporaryA = a
+        a = b
+        b = temporaryA
+    }
+    
+    
+    func swap() {
+        let cardView = swipeableView.history.last as! CardView
+        let i = findIndex(cards, cardView.frontText)!
+        let min = cards.count / 3
+        let max = cards.count - min
+        let j = Int(arc4random_uniform(UInt32((max - min) + 1))) + min
+        
+        swapTwoValues(&cards[i], &cards[j])
     }
     
     func setupSwipeableView() {
         defaultCardSize = CGSize(width: 300, height: 200)
         
         swipeableView = ZLSwipeableView()
+        swipeableView.numberOfHistoryItem = UInt.max
         swipeableView.allowedDirection = [.All]
+        
         contentView.addSubview(swipeableView)
-    
-        swipeableView.swiping = {view, location, translation in
+        
+        swipeableView.didSwipe = { cardView, direction, vector in
             self.flipped = self.isBack
+            if self.tapped {
+                self.swap()
+                self.tapped = false
+            }
+            self.updateRightBarButtonItem()
         }
         
         swipeableView.didTap = { cardView, location in
+            self.tapped = true
             self.flipped = !self.flipped
             self.flip(cardView)
         }
@@ -67,7 +106,7 @@ class ShowViewController: UIViewController {
             self.scaleAndTranslateView(cardView, scale: scale, translation: translation, duration: duration, offsetFromCenter: offset, swipeableView: swipeableView)
         }
     }
-
+    
     
     func scaleAndTranslateView(view: UIView, scale: CGFloat, translation: CGPoint, duration: NSTimeInterval, offsetFromCenter offset: CGPoint, swipeableView: ZLSwipeableView) {
         UIView.animateWithDuration(duration, delay: 0, options: .AllowUserInteraction, animations: {
@@ -80,6 +119,7 @@ class ShowViewController: UIViewController {
             }, completion: nil)
     }
     
+    
     func nextCardView() -> UIView? {
         if cardIndex >= cards.count {
             cardIndex = 0
@@ -91,9 +131,9 @@ class ShowViewController: UIViewController {
         cardView.backText = card.backText
         cardView.isBack = isBack
         cardIndex += 1
-        
         return cardView
     }
+    
     
     func flip(view: UIView) {
         let cardView = view as! CardView
@@ -108,8 +148,8 @@ class ShowViewController: UIViewController {
     // MARK: - Actions
     
     @IBAction func shuffle(sender: UIBarButtonItem) {
-        let shuffleCards = cards.shuffle()
-        cards = shuffleCards
+        let shuffledDeck = cards.shuffle()
+        cards = shuffledDeck
         reloadViews()
     }
     
@@ -119,9 +159,27 @@ class ShowViewController: UIViewController {
     }
     
     
+    @IBAction func reload(sender: UIBarButtonItem) {
+        reloadViews()
+    }
+    
+    @IBAction func rewind(sender: UIBarButtonItem) {
+        swipeableView.rewind()
+        updateRightBarButtonItem()
+    }
+    
     func reloadViews() {
+        cardIndex = 0
+        swipeableView.history.removeAll()
         swipeableView.discardViews()
         swipeableView.loadViews()
+        updateRightBarButtonItem()
+    }
+    
+    func updateRightBarButtonItem() {
+        let historyLength = swipeableView.history.count
+        let enabled = historyLength != 0
+        navigationItem.rightBarButtonItem?.enabled = enabled
     }
     
     
@@ -131,5 +189,4 @@ class ShowViewController: UIViewController {
             return self.nextCardView()
         }
     }
-
 }
