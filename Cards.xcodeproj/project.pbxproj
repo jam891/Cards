@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00161E7A7116C7E3175D0D20 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E165D4C68CE93C859F8CE2DE /* BuddyBuildSDK.framework */; };
+		0998A112C5AB7BFEFF2B7A07 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222E7A78AF7B317082D3804D /* SystemConfiguration.framework */; };
+		09E7908C7785F2CC87E01418 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0901D2E03BA5C271A24EB781 /* AssetsLibrary.framework */; };
+		32299D0683F5F8C3EE19B6DA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 504BAF1CA1E1C93227FE78A2 /* CoreMedia.framework */; };
+		4368FA1194202809550D0ECA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE6419CA90ABEAE8097CC0C /* CoreTelephony.framework */; };
 		B6F1ACD4454D36703DD1D138 /* Pods_Cards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A6AF27897D674A29792854 /* Pods_Cards.framework */; };
+		BA68833F76EC29BB24CF9F2F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242AF9A88D726BA5405511D5 /* CoreText.framework */; };
+		BD46F277166AC3F413B3574D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FAED6A210EE73D0B6033A9 /* AVFoundation.framework */; };
+		D357D885DF27A65560A29268 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1158BCD3C02F329D8D0A5220 /* CoreVideo.framework */; };
+		D75BEC7D422744A30B1B549B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FAD4485493B480208AB135 /* QuartzCore.framework */; };
 		E8535F3B1CF4966C00824F6A /* CardAddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8535F3A1CF4966C00824F6A /* CardAddTableViewController.swift */; };
 		E8535F3D1CF4984C00824F6A /* CardEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8535F3C1CF4984C00824F6A /* CardEditTableViewController.swift */; };
 		E8535F3F1CF4986B00824F6A /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8535F3E1CF4986B00824F6A /* CardDetailViewController.swift */; };
@@ -54,7 +63,16 @@
 
 /* Begin PBXFileReference section */
 		03A6AF27897D674A29792854 /* Pods_Cards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0901D2E03BA5C271A24EB781 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		10EE66D5F5D5733F9EAA8FE1 /* Pods-Cards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cards/Pods-Cards.debug.xcconfig"; sourceTree = "<group>"; };
+		1158BCD3C02F329D8D0A5220 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		222E7A78AF7B317082D3804D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		242AF9A88D726BA5405511D5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		4FE6419CA90ABEAE8097CC0C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		504BAF1CA1E1C93227FE78A2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		72FAED6A210EE73D0B6033A9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C7FAD4485493B480208AB135 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E165D4C68CE93C859F8CE2DE /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		E76CDA28BC18AB2B982B0A79 /* Pods-Cards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cards.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cards/Pods-Cards.release.xcconfig"; sourceTree = "<group>"; };
 		E8535F3A1CF4966C00824F6A /* CardAddTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardAddTableViewController.swift; sourceTree = "<group>"; };
 		E8535F3C1CF4984C00824F6A /* CardEditTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardEditTableViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +127,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6F1ACD4454D36703DD1D138 /* Pods_Cards.framework in Frameworks */,
+				00161E7A7116C7E3175D0D20 /* BuddyBuildSDK.framework in Frameworks */,
+				09E7908C7785F2CC87E01418 /* AssetsLibrary.framework in Frameworks */,
+				BA68833F76EC29BB24CF9F2F /* CoreText.framework in Frameworks */,
+				4368FA1194202809550D0ECA /* CoreTelephony.framework in Frameworks */,
+				0998A112C5AB7BFEFF2B7A07 /* SystemConfiguration.framework in Frameworks */,
+				D75BEC7D422744A30B1B549B /* QuartzCore.framework in Frameworks */,
+				BD46F277166AC3F413B3574D /* AVFoundation.framework in Frameworks */,
+				32299D0683F5F8C3EE19B6DA /* CoreMedia.framework in Frameworks */,
+				D357D885DF27A65560A29268 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +328,15 @@
 			isa = PBXGroup;
 			children = (
 				03A6AF27897D674A29792854 /* Pods_Cards.framework */,
+				E165D4C68CE93C859F8CE2DE /* BuddyBuildSDK.framework */,
+				0901D2E03BA5C271A24EB781 /* AssetsLibrary.framework */,
+				242AF9A88D726BA5405511D5 /* CoreText.framework */,
+				4FE6419CA90ABEAE8097CC0C /* CoreTelephony.framework */,
+				222E7A78AF7B317082D3804D /* SystemConfiguration.framework */,
+				C7FAD4485493B480208AB135 /* QuartzCore.framework */,
+				72FAED6A210EE73D0B6033A9 /* AVFoundation.framework */,
+				504BAF1CA1E1C93227FE78A2 /* CoreMedia.framework */,
+				1158BCD3C02F329D8D0A5220 /* CoreVideo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -583,6 +619,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Cards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vdsoftware.Cards;
@@ -598,6 +638,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Cards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vdsoftware.Cards;
